@@ -1,0 +1,39 @@
+body{
+    background:#fffffc
+}
+.maintitle{
+    font-size:20px;
+    text-align:center;
+    font-weight:bold;
+    padding-top:2vh;
+}
+.titleQuestion{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-bottom:1vh;
+    font-size: 17px;
+    font-weight:400;
+}
+.containerMargin{
+    margin-top:5vh;
+    margin-bottom:5vh;
+}
+#myChart, #myChart2, #myChart4, #myChart5{
+    height:100%;
+    max-width: 70%;
+    margin-left: 15%;
+}
+
+@media (max-width:500px){
+
+    #myChart, #myChart2, #myChart4, #myChart5{
+        max-width: 90%;
+        margin-left: 5%;
+    }
+    .titleQuestion{
+        padding-bottom:0vh;
+        padding-top: 5vh;
+    }
+
+
+  }
